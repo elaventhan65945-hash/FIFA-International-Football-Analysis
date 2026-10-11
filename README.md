@@ -42,15 +42,86 @@ Key Analysis Questions
 
 Visualizations
 
-The notebook contains charts covering:
+# International Football Analysis (Python)
 
-- Top 10 teams by matches played
-- Top 10 goal-scoring teams
-- Tournaments by match frequency
-- Distribution of match results
-- Matches played over time
-- Home versus away goals by year
-- Home-team wins by continent
+## Project Goal
+Analyse international football results (1993–2022) to answer 9 questions about teams, goals, tournaments and home advantage.
+
+**Tools:** Python, Pandas, Matplotlib
+
+## Key Insights
+
+### 1. Which teams have played the most international matches?
+
+
+![Top 10 teams by matches](chart1.png)
+
+
+Mexico leads with over 500 matches, followed by Saudi Arabia and USA.
+
+### 2. Which teams have scored the most goals?
+
+
+![Top 10 goal scoring teams](chart2.png)
+
+
+Brazil is the top scorer, followed by Germany and Mexico.
+
+### 3. Which tournaments have the most matches?
+
+
+![Top 10 tournaments](chart3.png)
+
+
+Friendlies dominate (8,000+), then World Cup qualifiers.
+
+### 4. Home win vs away win vs draw
+
+
+![Result distribution](chart4.png)
+
+
+Home teams win 49.2% of matches, lose 28.3%, and draw 22.5%.
+
+### 5. Average goals per match over the years
+
+
+![Average goals per match](chart5.png)
+
+
+Peaked around 3.0 in 2001, then trended down to about 2.5.
+
+### 6. Home goals vs away goals over the years
+
+
+![Home vs away goals](chart6.png)
+
+
+Home teams scored more than away teams in every year.
+
+### 7. Matches played over the years
+
+
+![Matches per year](chart7.png)
+
+
+Matches grew strongly from the 1990s, with a sharp drop in 2020.
+
+### 8. Which continent has the highest number of home wins?
+
+
+![Home wins by continent](chart8.png)
+
+
+Europe has the most home wins, followed by Africa and Asia.
+
+### 9. Which continent performs best at home?
+
+
+![Home matches by continent](chart9.png)
+
+
+Europe also plays the most home matches, so raw win counts favour it. Win rate (home wins ÷ home matches) is the fair measure.
 
 Skills Demonstrated
 
